@@ -7,9 +7,9 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - AI
   - Deep Learning
   - Machine Learning
-  - AI
   - Neural Networks
 created: '2026-03-16'
 modified: '2026-03-16'
@@ -23,9 +23,9 @@ apis:
       MXNet provides APIs in Python, Scala, Java, C++, R, Julia, and Perl for deep learning model development, with the Gluon high-level API, Symbol/NDArray low-level APIs, and model serving capabilities.
     humanURL: https://mxnet.apache.org/versions/1.9.1/api
     tags:
-      - Python
       - Deep Learning
       - Gluon
+      - Python
     properties:
       - type: Documentation
         url: https://mxnet.apache.org/versions/1.9.1/api

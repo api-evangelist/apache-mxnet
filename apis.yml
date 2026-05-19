@@ -43,6 +43,8 @@ apis:
       - type: GitHubRepository
         url: https://github.com/apache/mxnet
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/apache-mxnet
   - type: Portal
     url: https://mxnet.apache.org/
   - type: GitHubOrganization

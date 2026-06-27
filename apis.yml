@@ -34,10 +34,10 @@ apis:
         url: https://mxnet.apache.org/versions/1.9.1/api
       - type: GettingStarted
         url: https://mxnet.apache.org/versions/1.9.1/get_started
-      - type: SDK
+      - type: SDKs
         url: https://pypi.org/project/mxnet/
         title: Python SDK (PyPI)
-      - type: SDK
+      - type: SDKs
         url: https://central.sonatype.com/artifact/org.apache.mxnet/mxnet-full_2.12
         title: Scala/Java SDK (Maven)
       - type: GitHubRepository

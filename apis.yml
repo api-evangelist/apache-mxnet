@@ -43,6 +43,10 @@ apis:
       - type: GitHubRepository
         url: https://github.com/apache/mxnet
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-mxnet-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-mxnet-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/apache-mxnet
   - type: Portal

@@ -19,6 +19,13 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-mxnet.png
 tags:
+  - Artificial Intelligence
+  - Deep Learning
+  - Machine-Learning
+  - Neural Networks
+  - Python
+  - Retired
+tags_raw:
   - AI
   - Deep Learning
   - Machine Learning

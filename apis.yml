@@ -75,6 +75,8 @@ apis:
       - type: GitHubRepository
         url: https://github.com/apache/mxnet
 common:
+  - type: Website
+    url: https://www.apache.org/
   - type: IssueTracker
     url: https://github.com/apache/mxnet/issues
   - type: Releases

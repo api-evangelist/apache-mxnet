@@ -34,7 +34,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-mxn
 tags:
   - Artificial Intelligence
   - Deep Learning
-  - Machine-Learning
+  - Machine Learning
   - Neural Networks
   - Python
   - Retired
@@ -45,6 +45,7 @@ tags_raw:
   - Neural Networks
   - Python
   - Retired
+  - Machine-Learning
 created: '2026-03-16'
 modified: '2026-04-19'
 url: >-

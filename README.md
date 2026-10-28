@@ -1,4 +1,4 @@
-# Apache MXNet (apache-mxnet)
+# Apache MXNet
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,85 +66,102 @@
 
 Apache MXNet is a retired deep learning framework (now in the Apache Attic) designed for both efficiency and flexibility. It provided a multi-language API for building and training deep neural networks with support for distributed training, the Gluon high-level API, and deployment on edge devices. MXNet supported Python, Scala, Java, C++, R, Julia, and Perl.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/apache-mxnet/refs/heads/main/apis.yml)
+**Areas:** Artificial Intelligence · Deep Learning · Machine Learning · Neural Networks · Python · Retired
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache MXNet on APIs.io
 
-## Tags:
+Everything profiled for Apache MXNet is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-mxnet/](https://apis.io/providers/apache-mxnet/)** — or go straight to one of the APIs or properties below.
 
- - AI, Deep Learning, Machine Learning, Neural Networks, Python, Retired
+### APIs (1)
 
-## Timestamps
+- [Apache MXNet](https://apis.io/apis/apache-mxnet/apache-mxnet/) — MXNet provides APIs in Python, Scala, Java, C++, R, Julia, and Perl for deep learning model development, with the Gluon high-level API for imperative model…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache MXNet
-MXNet provides APIs in Python, Scala, Java, C++, R, Julia, and Perl for deep learning model development, with the Gluon high-level API for imperative model building, Symbol/NDArray low-level APIs for efficient computation graphs, and distributed training via Parameter Server and Horovod. Final version is 1.9.1.
+#### Security (2)
 
-**Human URL:** [https://mxnet.apache.org/versions/1.9.1/api](https://mxnet.apache.org/versions/1.9.1/api)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apache Mxnet Domain Security](https://apis.io/security/apache-mxnet/apache-mxnet-domain-security/)
+- [Apache Mxnet Vulnerability Disclosure](https://apis.io/security/apache-mxnet/apache-mxnet-vulnerability-disclosure/)
 
- - Deep Learning, Distributed Training, Gluon, Python
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://mxnet.apache.org/versions/1.9.1/api)
-- [GettingStarted](https://mxnet.apache.org/versions/1.9.1/get_started)
-- [Python SDK (PyPI)](https://pypi.org/project/mxnet/)
-- [Scala/Java SDK (Maven)](https://central.sonatype.com/artifact/org.apache.mxnet/mxnet-full_2.12)
-- [GitHubRepository](https://github.com/apache/mxnet)
+- [Apache Mxnet Plans Pricing](https://apis.io/plans/apache-mxnet/apache-mxnet-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
 
-- [Portal](https://mxnet.apache.org/)
-- [GitHubOrganization](https://github.com/apache)
-- [GitHubRepository](https://github.com/apache/mxnet)
-- [Wiki](https://cwiki.apache.org/confluence/display/MXNET/Apache+MXNet+Home)
-- [IssueTracker](https://issues.apache.org/jira/projects/MXNET/issues)
-- [MailingList](mailto:dev@mxnet.apache.org)
-- [TermsOfService](https://www.apache.org/licenses/LICENSE-2.0)
+Published request limits.
 
-## Features
+- [Apache Mxnet Rate Limits](https://apis.io/rate-limits/apache-mxnet/apache-mxnet-rate-limits/)
 
-| Name | Description |
-|------|-------------|
-| Hybrid Front-End | Seamlessly transitions between Gluon eager imperative mode and symbolic execution for research flexibility and production efficiency. |
-| Distributed Training | Supports Parameter Server and Horovod for scalable distributed training across multiple GPUs and nodes. |
-| Multi-Language Bindings | Native APIs in Python, Scala, Java, C++, R, Julia, Clojure, and Perl for broad developer accessibility. |
-| Gluon High-Level API | Intuitive Gluon API for imperative model building with automatic differentiation and dynamic computation graphs. |
-| NDArray API | NumPy-like array operations for GPU-accelerated numerical computing as the foundation of MXNet computations. |
-| Symbol API | Symbolic computation graph API for efficient inference and production deployment. |
-| Model Zoo | Pre-trained models for computer vision, NLP, and other tasks accessible via the Gluon model zoo. |
-| Edge Deployment | Lightweight deployment support for edge devices and mobile platforms via TVM and ONNX export. |
+#### FinOps (1)
 
-## Use Cases
+What the API costs to run, by operation.
 
-| Name | Description |
-|------|-------------|
-| Computer Vision | Build and train image classification, object detection, and segmentation models using GluonCV toolkit. |
-| Natural Language Processing | Develop NLP models for text classification, sentiment analysis, and language modeling using GluonNLP. |
-| Time Series Forecasting | Build time series forecasting models using the GluonTS toolkit for probabilistic forecasting. |
-| Distributed Deep Learning | Train large neural networks across multiple GPUs and nodes using Parameter Server or Horovod. |
-| Research Prototyping | Rapid prototyping of novel deep learning architectures using the Gluon imperative API. |
+- [Apache Mxnet Finops](https://apis.io/finops/apache-mxnet/apache-mxnet-finops/)
 
-## Integrations
+## Where to find this API
 
-| Name | Description |
-|------|-------------|
-| GluonCV | Computer vision toolkit built on MXNet providing pre-trained models and training utilities for vision tasks. |
-| GluonNLP | NLP toolkit built on MXNet with pre-trained language models and text processing utilities. |
-| GluonTS | Time series modeling toolkit built on MXNet for probabilistic forecasting. |
-| ONNX | ONNX model format support for importing and exporting models to/from other frameworks. |
-| TVM | Apache TVM deep learning compiler for optimizing MXNet model deployment on diverse hardware targets. |
-| Horovod | Horovod distributed training framework integration for efficient multi-GPU and multi-node training. |
-| D2L.ai | Dive into Deep Learning interactive textbook using MXNet for teaching deep learning concepts. |
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Maintainers
+- [Website](https://www.apache.org/)
+- [Terms of service](https://www.apache.org/licenses/LICENSE-2.0)
+- [GitHub](https://github.com/apache)
 
-**FN:** Kin Lane
+## API Evangelist rating
 
-**Email:** info@apievangelist.com
+**Kin Score 27.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-mxnet/](https://apis.io/providers/apache-mxnet/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache MXNet: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-mxnet/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
